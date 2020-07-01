@@ -218,7 +218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -4.81, y: 4}
+  m_AnchoredPosition: {x: -2, y: 4}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &524570925
@@ -469,19 +469,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fruitsPrefab:
-  - {fileID: 8057986346833028188, guid: 6ec267abeece44ea8a98e4c3d48595d9, type: 3}
-  - {fileID: 7517572831860926364, guid: 91093b99d237f444c98f1a320f52ac85, type: 3}
+  - {fileID: 4580807465593630031, guid: c05d0c03fe30243b9b78839c995cf0fe, type: 3}
   - {fileID: 3773411210810081161, guid: bb21e42861ab9484884174f096e40718, type: 3}
   - {fileID: 2132701879159527660, guid: 961ac79cfd64140369a86fb2dd2ad294, type: 3}
   - {fileID: 3303371353490270437, guid: 209fc78c644bc4cb5a93b75a70f98842, type: 3}
-  - {fileID: 5015492276789509597, guid: 6c1ce433cc84741dc8d57470075504d3, type: 3}
-  - {fileID: 4580807465593630031, guid: c05d0c03fe30243b9b78839c995cf0fe, type: 3}
   spawnPoints:
   - {fileID: 524570926}
   - {fileID: 552097192}
   - {fileID: 1852833039}
-  minDelay: 0.1
-  maxDelay: 1
+  minDelay: 0.5
+  maxDelay: 3
 --- !u!4 &840967883
 Transform:
   m_ObjectHideFlags: 0
